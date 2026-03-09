@@ -8,7 +8,7 @@ on:
 env:
   REGISTRY: ghcr.io
   GHCR_NAMESPACE: rafaprogramming123
-  IMAGE_BACKEND: ghcr.io/${{ env.GHCR_NAMESPACE }}/backend:dev
+  IMAGE_BACKEND: ghcr.io/rafaprogramming123/backend:dev
 
 jobs:
   build-and-push:
