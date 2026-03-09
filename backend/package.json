@@ -1,0 +1,25 @@
+{
+  "name": "devops-homework-backend",
+  "version": "1.0.0",
+  "description": "Minimal Node.js backend for DevOps CI/CD homework (Docker, Compose, GitHub Actions, GHCR, SSH deploy).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development node src/index.js",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "docker",
+    "github-actions",
+    "ghcr"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.0"
+  }
+}
